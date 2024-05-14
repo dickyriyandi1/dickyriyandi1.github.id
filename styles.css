@@ -1,0 +1,290 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin: 0 0 40px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+#hero .btn.secondary {
+    background-color: #333;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Value Proposition Section */
+#value-proposition {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#value-proposition h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.value {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.value img {
+    max-width: 100px;
+    height: auto;
+}
+
+.value h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.value p {
+    font-size: 16px;
+}
+
+/* Product Features Section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Customer Testimonials Section */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.plan .btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#faq h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+}
+
+/* Final Call to Action Section */
+#final-cta {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#final-cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#final-cta p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#final-cta .btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.final-cta-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a {
+    margin: 0 5px;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: auto;
+}
+
+footer .contact-info p {
+    margin: 10px 0;
+}
